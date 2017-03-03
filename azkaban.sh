@@ -29,7 +29,7 @@ function create(){
 }
 
 function update(){
-  cho -e "\n============start to zip file to ${projectName}.zip ============="
+  echo -e "\n============start to zip file to ${projectName}.zip ============="
   zip ${projectName}.zip -r ./
   echo -e "\n============start to update project============="
   name=$1
